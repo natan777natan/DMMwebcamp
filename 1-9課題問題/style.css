@@ -66,20 +66,26 @@
 
 @media screen and (max-width:768px) {
 
+
 .blog-box {
 	width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
+	margin: 50px auto;
+	/*background-color: orange;*/
 
-    
 
 }
 
 .blog-item {
+	width: 100%;
 	float: none;
-    margin-bottom: 20px;
+    margin: 20px auto;
+
 
 }
+
+
+
+
 
 }
 
