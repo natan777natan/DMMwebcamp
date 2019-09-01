@@ -1,0 +1,62 @@
+/* リセットCSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+.blog-box {
+	width: 960px;
+	margin: 50px auto;
+	bottom: 50px;
+    
+
+}
+
+.blog-item {
+	float: left;
+    margin-right: 30px;
+	width: 300px;
+	display: inline-block;
+	border: 1px solid #f7f7f7;
+    position: relative;
+}
+
+.blog-item:last-child {
+	margin-right: 0;
+}
+
+.step {
+	color: #fff;
+	background-color: orange;
+	position: absolute;
+	font-size: 20px;
+	padding: 5px;
+	font-family: sans-serif;
+}
+
+.blog-item-image {
+    width: 280px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-position: center;
+
+}
+
+.blog-title {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.text {
+	margin-right: 10px;
+	margin-left: 10px;
+}

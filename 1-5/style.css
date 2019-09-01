@@ -1,0 +1,42 @@
+/* リセットCSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-visual-content {
+	width: 100%;
+	height: 800px;
+	background-color: lime;
+}
+
+.mv1 {
+	width: 100%;
+	height: 200px;
+	background-image: url(img/box1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.mv2 {
+	width: 100%;
+	height: 200px;
+	background-image: url(img/box2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.mv3 {
+	width: 100%;
+	height: 200px;
+	background-image: url(img/box3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.mv4 {
+	width: 100%;
+	height: 200px;
+	background-image: url(img/box4.jpg);
+	background-size: cover;
+	background-position: center;
+}
